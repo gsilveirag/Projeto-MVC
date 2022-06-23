@@ -502,3 +502,5 @@ C:\Users\User\Desktop\Estudos\Git\Projeto MVC\Projeto-MVC\obj\Debug\net6.0\refin
 C:\Users\User\Desktop\Estudos\Git\Projeto MVC\Projeto-MVC\obj\Debug\net6.0\SalesWebMVC.pdb
 C:\Users\User\Desktop\Estudos\Git\Projeto MVC\Projeto-MVC\obj\Debug\net6.0\SalesWebMVC.genruntimeconfig.cache
 C:\Users\User\Desktop\Estudos\Git\Projeto MVC\Projeto-MVC\obj\Debug\net6.0\ref\SalesWebMVC.dll
+C:\Users\User\Desktop\Estudos\Git\Projeto MVC\Projeto-MVC\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\User\Desktop\Estudos\Git\Projeto MVC\Projeto-MVC\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
