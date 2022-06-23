@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "z3C8KX5lMtvHITxLzCzklBYdqvSgoyXBEdt/d/5b1Uo=",
+  "Hash": "gSPPTeANUvK9Vm1XQ3UXpzRzV00Luw6Hw/3VnSpOZdY=",
   "Source": "SalesWebMVC",
   "BasePath": "_content/SalesWebMVC",
   "Mode": "Default",
@@ -236,6 +236,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Estudos\\Git\\Projeto MVC\\Projeto-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.css",
+      "SourceId": "SalesWebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Estudos\\Git\\Projeto MVC\\Projeto-MVC\\wwwroot\\",
+      "BasePath": "_content/SalesWebMVC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-flaty.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.css"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Estudos\\Git\\Projeto MVC\\Projeto-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -508,6 +525,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Estudos\\Git\\Projeto MVC\\Projeto-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-superhero.css",
+      "SourceId": "SalesWebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Estudos\\Git\\Projeto MVC\\Projeto-MVC\\wwwroot\\",
+      "BasePath": "_content/SalesWebMVC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-superhero.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-superhero.css"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Estudos\\Git\\Projeto MVC\\Projeto-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
