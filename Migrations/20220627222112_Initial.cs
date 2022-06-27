@@ -6,27 +6,27 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace SalesWebMVC.Migrations
 {
-    public partial class OtherEntities : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.UpdateData(
-                table: "Department",
-                keyColumn: "Name",
-                keyValue: null,
-                column: "Name",
-                value: "");
+            migrationBuilder.AlterDatabase()
+                .Annotation("MySql:CharSet", "utf8mb4");
 
-            migrationBuilder.AlterColumn<string>(
-                name: "Name",
-                table: "Department",
-                type: "longtext",
-                nullable: false,
-                oldClrType: typeof(string),
-                oldType: "longtext",
-                oldNullable: true)
-                .Annotation("MySql:CharSet", "utf8mb4")
-                .OldAnnotation("MySql:CharSet", "utf8mb4");
+            migrationBuilder.CreateTable(
+                name: "Department",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Name = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4")
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Department", x => x.Id);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
                 name: "Seller",
@@ -96,15 +96,8 @@ namespace SalesWebMVC.Migrations
             migrationBuilder.DropTable(
                 name: "Seller");
 
-            migrationBuilder.AlterColumn<string>(
-                name: "Name",
-                table: "Department",
-                type: "longtext",
-                nullable: true,
-                oldClrType: typeof(string),
-                oldType: "longtext")
-                .Annotation("MySql:CharSet", "utf8mb4")
-                .OldAnnotation("MySql:CharSet", "utf8mb4");
+            migrationBuilder.DropTable(
+                name: "Department");
         }
     }
 }
