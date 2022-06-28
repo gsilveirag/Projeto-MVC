@@ -8,6 +8,7 @@ builder.Services.AddDbContext<SalesWebMVCContext>(options =>
     options.UseMySql("Server = 127.0.0.1; userid = root ; password = 1234567; Database = ProjetoMVC", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.29-mysql")));
 
 builder.Services.AddScoped<SellerServices>();
+builder.Services.AddScoped<DepartmentService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
