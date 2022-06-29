@@ -1,12 +1,31 @@
-﻿namespace SalesWebMVC.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace SalesWebMVC.Models
 {
     public class Seller
     {
         public int Id { get; set; }
+
+        [Required(ErrorMessage ="{0} Required.")]
+        [StringLength(60, MinimumLength = 3, ErrorMessage ="{0} tamanhao deve ser entre 3 e 60")]
         public string Name { get; set; }
+
+        [Required(ErrorMessage = "{0} Required.")]
+        [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+
+        [Required(ErrorMessage = "{0} Required.")]
+        [Display(Name = "Birth Date")]
+        [DataType(DataType.Date)]
         public DateTime BirthDate { get; set; }
+
+        [Required(ErrorMessage = "{0} Required.")]
+        [Display(Name = "Base Salary")]
+        [DisplayFormat(DataFormatString = "{0:F2}")]
+        [Range(100.0, 10000.00, ErrorMessage ="{0} deve ser entre {1} e {2}.")]
         public double BaseSalary { get; set; }
+
+        
         public Department Department { get; set; }
         public int DepartmentId { get; set; }
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
